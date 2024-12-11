@@ -1,0 +1,28 @@
+.text-reset{
+      transition: 0.8s;
+}
+
+.text-reset:hover{
+    opacity: 0.5;
+}
+
+.navbar-toggler{
+      border: none;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: black;
+}
+
+.nav-link{
+     transition: 0.8s;
+}
+
+.nav-link:hover{
+    opacity: 0.3s;
+}
