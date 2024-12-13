@@ -9,16 +9,18 @@ document.getElementById("form").addEventListener("submit", function(event) {
    let feedback = document.getElementById("feedback");
 
    if (!nome || !email || !tel || !termos){
-      feedback.textContent = "Por favor! Preencha todos os campos e aceite os termos e condições.";
+      feedback.textContent    = "Por favor! Preencha todos os campos e aceite os termos e condições.";
       feedback.classList.remove("success");
       feedback.classList.add("error");
+      
    } else {
       feedback.textContent = "Inscrição realizada com sucesso!";
       feedback.classList.remove("error");
       feedback.classList.add("success");
 
-      window.alert("Nome: " + nome);
-      window.alert("E-mail: " + email);
-      window.alert("Telefone: " + telefone);
+      console.log("Nome: " + nome);
+      console.log("E-mail: " + email);
+      console.log("Telefone: " + telefone);
+      window.location.href = '../src/comunidade/'; 
   }
 })
