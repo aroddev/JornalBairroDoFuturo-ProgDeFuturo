@@ -25,32 +25,78 @@
   <body>
     <!-- Inicio Navegação -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
+      <div class="container-fluid m">
         <a class="navbar-brand" href="./index.html"
           ><img src="./img/logo-removebg-preview.png"
         /></a>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <a
-            href="auth/login.html"
-            class="btn btn-danger mx-auto p-2 justify-content-around"
-            role="button"
-            >Faça o login</a
-          >
-          <div class="navbar-nav mx-auto">
-            <a class="nav-link active" aria-current="page" href="#footer"
+        <!-- Botão do Menu do Mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <!-- Menu do Mobile -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <!-- Abas sites -->
+          <div class="navbar-nav justify-content-end"> 
+            <a class="nav-link active pt-4" aria-current="page" href="#footer"
               >Mais infomações</a>
-            <a class="nav-link" href="#">Comunidade</a>
-            <a class="nav-link" href="#">Serviços</a>
+            <a class="nav-link pt-4" href="#">Comunidade</a>
+            <a class="nav-link pt-4" href="#">Serviços</a>
           </div>
         </div>
       </div>
     </nav>
     <!-- Fim Navegação -->
 
-    <!-- Início Conteúdo -->
-     
-    <!-- Fim Conteúdo -->
+    <!-- Início Conteúdo-->
+   <div class="row">
+    <div class="col-lg">
+      <div class="card m-5" style="width: 18rem;">
+        <img class="card-img-top" src="./img/fotonotícia.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Moradores apontam que menos da metade população do itapoã tem escritura definitiva do imóvel.</h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn text-info ms-5">Veja mais sobre</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg">
+      <div class="card m-5" style="width: 18rem;">
+        <img class="card-img-top" src="./img/smiley-woman-posing-with-guitar-while-camping-outdoors.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Moradora do Mandala passa em concurso para estudar música na Itália.</h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn text-info ms-5">Veja mais sobre</a>
+        </div>
+      </div>
 
+    </div>
+    <div class="col-lg">
+
+      <div class="card m-5" style="width: 18rem;">
+        <img class="card-img-top" src="img/Aluno-do-CED-01-do-Itapoa-leva-ouro-no-taekwondo-nos-Jogos-Escolares-Brasileiros-2024-foto-capa-scaled.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Atleta da escola CED 01 do Itapoã ganha ouro na modalidade taekwondo nos jogos Escolares Brasileiros.</h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn text-info ms-5">Veja mais sobre</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg">
+      <div class="card m-5" style="width: 18rem;">
+        <img class="card-img-top" src="./img/fotonotícia.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Governo faz investimento de R$ 5,6 milhões para construção de nova rodoviária para a população do Mandala.</h5>
+          <p class="card-text"></p>
+          <a href="#" class="btn text-info ms-5">Veja mais sobre</a>
+        </div>
+      </div>
+    </div>
+   </div>
+    <!-- Fim Conteúdo-->
     <!-- Início Footer -->
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       <div class="col-md-4 d-flex align-items-center">
