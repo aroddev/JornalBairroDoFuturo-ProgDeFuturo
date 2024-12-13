@@ -1,6 +1,6 @@
 body {
    font-family: Arial, sans-serif;
-   background-color: #bfffa6;
+   background-color: rgba(128, 128, 128, 0.3);
    margin: 0;
    padding: 0;
    display: flex;
@@ -10,7 +10,7 @@ body {
 }
 
 .form-container {
-   background-color: #fff;
+   background-color: #ffffff;
    border-radius: 8px;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
    padding: 30px;
@@ -41,14 +41,24 @@ input[type="text"], input[type="email"], input[type="tel"] {
    border: 1px solid #ccc;
    border-radius: 4px;
    font-size: 14px;
+   transition: border .5s;
+   transition: background-color 1s;
 }
 
 input[type="checkbox"] {
    margin-right: 10px;
+}  
+input:checked + span {
+   color: blue;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="tel"]:hover {
+   border: 1px black solid;
+   background-color: #ccc;
 }
 
 button, a {
-   background-color: #4CAF50;
+   background-color: rgba(179, 0, 0, 0.663);
    color: white;
    padding: 10px;
    border: none;
@@ -57,15 +67,11 @@ button, a {
    font-size: 16px;
    text-decoration: none;
    text-align: center;
+   transition: background-color .5s ease-in-out;
 }
-a:hover {
-   background-color: rgb(52, 52, 153);
+a:hover, button:hover {
+   background-color: #b30000;
 }
-   
-button:hover {
-   background-color: #45a049;
-}
-
 
 #feedback {
    text-align: center;
@@ -76,3 +82,4 @@ button:hover {
 #feedback.success {
    color: green;
 }
+
