@@ -1,6 +1,11 @@
 # Jornal O Bairro do Futuro -- ProgDeFuturo
 
 Desafio hackathon, o jornal do bairro do futuro!
+**CED 01 do Itapoã**
+- Arthur Rodrigues
+- João Carlos
+- Victor Cardoso
+- Enzo Souza
 
 ## Roadmap✅
 - [ ] REQUISITOS MÍNIMOS
